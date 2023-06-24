@@ -1,4 +1,9 @@
-let x;
-console.log(x + 1);
-console.log(2=4);
+function someFunc() {
+  console.log('function starts here');
 
+	console.log('function ends here');
+}
+function sayHi(name) {
+  const greeting = 'Привет, ' + name + '!';
+	console.log(greeting);
+}
