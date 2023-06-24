@@ -1,9 +1,15 @@
-function someFunc() {
-  console.log('function starts here');
+function sayHi(name = 'User') {
+  name = prompt ("What is your name?", "User");
+  const greeting = 'Hi, ' + name + '!';
+	alert(greeting);
+}
 
-	console.log('function ends here');
-}
-function sayHi(name) {
-  const greeting = 'Привет, ' + name + '!';
-	console.log(greeting);
-}
+sayHi();
+function checkage(age = "Age") {
+  age = prompt ("How old are you?", 20); 
+  if(age >= 18) {
+    alert("you are welcome!")
+  } else{
+    alert("you are not allowed")
+}}
+checkage();
