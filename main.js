@@ -24,10 +24,6 @@ console.log(result); // Я, к сожалению, не смог разобра�
 
 
 
-
-
-
-
 /* function sayHi(name = 'User') {
   name = prompt ("What is your name?", "User");
   const greeting = 'Hi, ' + name + '!';
